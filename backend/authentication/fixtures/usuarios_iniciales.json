@@ -1,0 +1,26 @@
+[
+{
+  "model": "authentication.usuario",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$jl5TadEhCMl07oIKS2Pl4O$7goQmA8YEBh7x7E70FlUvgWA3i8WI9OwkFOEXUE6MPQ=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "Administrador",
+    "last_name": "LatexSmart",
+    "email": "admin@latexsmart.mx",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-06-05T10:25:14.169Z",
+    "rol": "admin",
+    "telefono": "",
+    "localidad": "",
+    "activo": true,
+    "fecha_creacion": "2026-06-05T10:25:15.333Z",
+    "creado_por": null,
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

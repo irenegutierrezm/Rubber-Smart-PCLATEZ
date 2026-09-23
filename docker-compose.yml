@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgis/postgis:15-3.3
+    container_name: latexsmart_db
+    environment:
+      POSTGRES_DB: latexsmart
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: latexsmart2024
+    ports:
+      - '5433:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: always
+
+volumes:
+  postgres_data:
