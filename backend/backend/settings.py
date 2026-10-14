@@ -2,7 +2,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-latexsmart-2024-clave-secreta-cambiar-en-produccion'
+SECRET_KEY = 'django-insecure-rubber-2024-clave-secreta-cambiar-en-produccion'
 
 DEBUG = True
 
@@ -55,7 +55,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'latexsmart',
+        'NAME': 'ruber',
         'USER': 'admin',
         'PASSWORD': 'latexsmart2024',
         'HOST': 'localhost',

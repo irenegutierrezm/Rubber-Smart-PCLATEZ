@@ -13,7 +13,7 @@ class Command(BaseCommand):
                 password='Admin2024*',
                 rol='admin',
                 first_name='Administrador',
-                last_name='LatexSmart'
+                last_name='Rubber'
             )
             self.stdout.write(self.style.SUCCESS('✅ Usuario admin creado'))
         else:

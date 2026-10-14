@@ -51,7 +51,7 @@ export default function Login() {
       <div style={styles.card}>
         <div style={styles.header}>
           <div style={styles.logoRing}>🌿</div>
-          <h1 style={styles.title}>LatexSmart Agro</h1>
+          <h1 style={styles.title}>Rubber Agro</h1>
           <p style={styles.sub}>Asociación de Productores de Látex</p>
         </div>
 

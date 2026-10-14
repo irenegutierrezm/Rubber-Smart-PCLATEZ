@@ -1,9 +1,9 @@
 services:
   db:
     image: postgis/postgis:15-3.3
-    container_name: latexsmart_db
+    container_name: rubber_db
     environment:
-      POSTGRES_DB: latexsmart
+      POSTGRES_DB: rubber
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: latexsmart2024
     ports:

@@ -37,7 +37,7 @@ export default function Sidebar() {
       <div style={s.logo}>
         <span style={s.logoIcon}>🌿</span>
         <div>
-          <div style={s.logoTitle}>LatexSmart</div>
+          <div style={s.logoTitle}>Rubber</div>
           <div style={s.logoSub}>Agro Platform</div>
         </div>
       </div>
